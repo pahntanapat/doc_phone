@@ -44,6 +44,6 @@ if($act=='login'){
   <button type="submit">Log in</button>
   <input name="act" type="hidden" id="act" value="login">
 </form>
-<?php if($act!=NULL){ ?><p><?php echo($act);?></p><?php } var_dump($_SESSION); ?>
+<?php if($act!=NULL){ ?><p><?php echo($act);?></p><?php } ?>
 </body>
 </html>
